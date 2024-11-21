@@ -1,0 +1,201 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+}
+
+.center {
+  text-align: center;
+  color: #929292;
+}
+
+p.center-container {
+  text-align: center;
+  font-size: 200%;
+
+}
+
+button {
+  border: 1px solid black;
+  font-size: 11px;
+}
+
+
+body {
+  background-color: #232323;
+}
+
+
+
+h3,
+h5,
+ol,
+tr,
+table,
+td,
+p,
+ul {
+  color: #929292;
+}
+
+a:link {
+  color: green
+}
+
+a:visited {
+  color: purple
+}
+
+a:hover {
+  color: #ff4013
+}
+
+a:active {
+  color: lightblue;
+}
+
+.header-item {
+  width: 100%;
+}
+
+#header-img {
+  margin: 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  border: black solid 1px;
+  background-color: #d6d6d6;
+  width: 40%;
+  height: 4%;
+}
+
+.header-button {
+  width: 100px;
+  height: 30px;
+  background-color: #aaaaaa;
+  color: #00fdff;
+
+}
+
+table,
+th,
+td {
+  border: 1px solid #929292;
+}
+
+.header-container {
+  padding-top: 2%;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  text-align: center;
+  color: #929292;
+  font-family: 'Gemunu Libre', sans-ser;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #aaaaaa;
+  text-align: center;
+  color: #00fdff;
+}
+
+.navbar {
+  background-color: #5a1c00;
+
+
+}
+
+/*Create a rule set for all items in the unordered list*/
+.navbar ul {
+  list-style: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  margin-bottom: 10px;
+
+
+}
+
+/*Create a reule set for individual list items*/
+.navbar ul li {
+  float: left;
+  margin: 19px;
+}
+
+/* Create a rule set for list item links*/
+.navbar ul li a {
+  display: block;
+  color: #00fdff;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+/*Create a rule set for when we hover over a specific link*/
+.navbar ul li a:hover {
+  text-align: left;
+}
+
+
+#map {
+  height: 500px;
+  width: 50%;
+  padding-right: 52%;
+  padding-left: 48%;
+}
+
+
+
+i {
+  font-size: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+
+}
+
+
+#form-des {
+  background-color: #aaaaaa;
+  ;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #444444;
+  margin: 20px;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.p {
+  color: #00fdff;
+}
