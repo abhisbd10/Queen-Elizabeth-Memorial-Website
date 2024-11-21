@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Queen Memorial Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <!--the icon for the dark and light mode-->
+
+  <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+
+
+  <!-- navigation bar and their links-->
+  <div class="navbar">
+    <ul>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Learn">Learn</a></li>
+      <li><a href="#Locations">Locations</a></li>
+      <li><a href="#Form">Form</a></li>
+      <li><a href="#Gallery">Gallery</a></li>
+
+    </ul>
+  </div>
+
+
+
+
+  <div id="Home">
+    <h1 class="header-container">The Queen Elizabeth Memorial</h1>
+  </div>
+
+
+  <div class="center">
+    <img id="header-img" src="QueenElizabeth1.jpeg" alt="Queen sleeping in heaven enjoying her beautiful morning"
+      title="Queen Elizabeth">
+  </div>
+
+
+  <!--create a form to input user's data-->
+
+  <div id="Form">
+    <p id="welcome"></p>
+    <form id="form-des">
+      Enter your name to proceed and immerse yourself:<input type="text" id="name"><br>
+      <input type="button" value="Go" onclick="write_name() ;">
+    </form>
+  </div>
+
+  <!--who is queen elizabeth and what she did-->
+
+  <div id="About">
+    <h3>WHO IS SHE?</h3>
+  </div>
+  <div>
+    <p id="header-item">Elizabeth II, in full Elizabeth Alexandra Mary, officially Elizabeth II, by the Grace of God, of
+      the United Kingdom of Great Britain and Northern Ireland and of her other realms and territories Queen, Head of
+      the Commonwealth, Defender of the Faith was born April 21, 1926, London, England. she was queen of the United
+      Kingdom of Great Britain and Northern Ireland from February 6, 1952, to September 8, 2022. In 2015 she surpassed
+      Victoria to become the longest-reigning monarch in British history. Queen Elizabeth II, 96, who served as queen of
+      the United Kingdom and the Commonwealth realms for 70 years, died at Balmoral Castle in Scotland on September 8,
+      2022.</p>
+  </div>
+
+
+
+  <div class="center"><button class="header-button">Queen's Guards</button>
+    <button class="header-button"> Queen's Family</button>
+  </div>
+
+
+
+
+  <div id="Locations">
+    <div id="map"></div>
+    <script async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1eyLUAP7ogApIuYI5EqZWLRoBwsZEiiA&callback=initMap">
+      </script>
+    <script src="script.js"></script>
+  </div>
+
+
+
+
+  <h2 class="center"><b>My heart has been with you all; and I remain committed to serving you to the best of my
+      ability.</b></h2>
+
+  <h4 class="center">Her Majesty The Queen</h4>
+
+  <!--Her Accomplishments-->
+
+  <div>
+    <h3>Queen Elizabeth Most Notable Accomplishments</h3>
+    <ol>
+      <li>She reformed the monarchy's finances.</li>
+      <li>The stability she brought.</li>
+      <li>She guided the transformation to a commonwealth.</li>
+      <li>She modernized the monarchy.</li>
+      <li>She was the first british monarch to address congress.</li>
+      <li>Supporting racial justice in the commonwealth.</li>
+    </ol>
+  </div>
+  <div>
+
+
+    <!-- title she achieved for being the queen of england-->
+
+    <h3>Regnal Titles</h3>
+    <table style="width:70%">
+      <tr>
+        <th>Country</th>
+        <th>Date (Year)</th>
+        <th>Title</th>
+      </tr>
+      <tr>
+        <td>Canada</td>
+        <td>1867</td>
+        <td>Elizabeth the Second, by the Grace of God of the United Kingdom, Canada and Her other Realms and Territories
+          Queen, Head of the Commonwealth, Defender of the Faith</td>
+      </tr>
+      <tr>
+        <td>Jamaica </td>
+        <td>1962</td>
+        <td>Elizabeth the Second, by the Grace of God of Jamaica and of Her other Realms and Territories Queen, Head of
+          the Commonwealth</td>
+      </tr>
+      <tr>
+        <td>Bahamas</td>
+        <td>1973</td>
+        <td> Elizabeth the Second, by the Grace of God, Queen of the Commonwealth of The Bahamas and of Her other Realms
+          and Territories, Head of the Commonwealth </td>
+      </tr>
+      <tr>
+        <td>Tuvalu</td>
+        <td> 1978</td>
+        <td> Elizabeth the Second, by the Grace of God Queen of Tuvalu and of Her other Realms and Territories, Head of
+          the Commonwealth</td>
+      </tr>
+      <tr>
+        <td> Papua New Guinea</td>
+        <td> 1975</td>
+        <td> Elizabeth the Second, Queen of Papua New Guinea and Her other Realms and Territories, Head of the
+          Commonwealth</td>
+      </tr>
+    </table>
+  </div>
+
+
+
+
+  <!--her hobbies and specail movements-->
+
+  <h3>The Queen's Hobbies And Interests</h3>
+  <ul>
+    <li>Horses
+      <ul>
+        <li>The Queen's first pony was given to her by her grandfather King George V - a Shetland called Peggy, marking
+          the beginning of a lifelong love of horses.Her Majesty became hugely knowledgeable as a rider, owner and
+          breeder of horses and her passion for them was evident at the race meetings she attended publicly, which
+          regularly included the Derby at Epsom and Royal Ascot, a Royal occasion since 1711.</li>
+      </ul>
+    </li>
+
+    <li>Dogs
+      <ul>
+        <li>For her eighteenth birthday, The Queen was given a Corgi named Susan from whom numerous successive dogs were
+          bred. Some Corgis were crossed with dachsunds (most notably Pipkin, who belonged to Princess Margaret) to
+          create ‘Dorgis’, and Her Majesty has owned Corgis and Dorgis ever since.</li>
+      </ul>
+    </li>
+
+    <li>Dancing
+      <ul>
+        <li>The Queen and The Duke of Edinburgh both loved Scottish country dancing. Each year, during her stay at
+          Balmoral Castle, Her Majesty hosted the annual dances known as Ghillies' Balls, for neighbours, estate and
+          Castle staff and members of the local community.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <!--photo of her young self-->
+
+  <div id=Gallery>
+    <h3 class="header-item"> Queen's Memorable Photos </h3>
+    <div class="row">
+      <div class="column">
+        <img src="QueenElizabethII.jpeg" alt="Queensmile" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="coronation-portrait-of-queen-elizabeth-ii-1.webp" alt="QueenLizzy" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="queen.jpeg" alt="Queen" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div id="Learn">
+    <footer class="footer">
+      <p class="p">Click Below To Learn More<br>
+        <a href="https://nypost.com/2022/09/08/queen-elizabeth-ii-dead-at-96/">News and Articles</a>
+      </p>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>
